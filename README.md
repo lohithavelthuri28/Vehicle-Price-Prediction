@@ -45,16 +45,18 @@ vehicle_price_prediction/
 
 ## ⚙ Installation & Setup
 
-### 1️⃣ Create Virtual Environment (optional but recommended)
+### 1️⃣ Create Virtual Environment 
 
 ```bash
 python -m venv .venv
 source .venv/bin/activate   # Mac/Linux
 .venv\Scripts\activate      # Windows
-## 2️⃣ Install dependencies
+```
+### 2️⃣ Install dependencies
+```
 pip install -r requirements.txt
-
-## 🏋️ Training the Model
+```
+### 🏋️ Training the Model
 
 Prepare a dataset CSV containing a price column (target) and vehicle features.
 python train.py --data dataset.csv
@@ -62,11 +64,12 @@ python train.py --data dataset.csv
 If training is successful, a model file will be saved:
 vehicle_price_model.joblib
 
-## 🌐 Running the Streamlit App
+### 🌐 Running the Streamlit App
 streamlit run app.py
 Upload a CSV containing vehicle data (no price column required).
 The app will display predictions and allow output download.
-##📊 Example Columns
+
+### 📊 Example Columns
 
 Your input CSV may include any of these columns (the model will automatically use the available ones):
 
