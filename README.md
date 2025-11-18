@@ -37,11 +37,15 @@ The model pipeline includes:
 ## 📂 Project Structure
 
 vehicle_price_prediction/
+
 ├── app.py # Streamlit web app
+
 ├── train.py # Model training script
+
 ├── requirements.txt # Dependencies
-├── vehicle_price_model.joblib # Trained model (optional to include)
-├── dataset_example.csv # Example input file (optional)
+
+├── vehicle_price_model.joblib # Trained model 
+
 └── README.md
 
 
