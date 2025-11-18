@@ -51,10 +51,10 @@ vehicle_price_prediction/
 python -m venv .venv
 source .venv/bin/activate   # Mac/Linux
 .venv\Scripts\activate      # Windows
-###2️⃣ Install dependencies
+### 2️⃣ Install dependencies
 pip install -r requirements.txt
 
-###🏋️ Training the Model
+### 🏋️ Training the Model
 
 Prepare a dataset CSV containing a price column (target) and vehicle features.
 python train.py --data dataset.csv
@@ -62,7 +62,7 @@ python train.py --data dataset.csv
 If training is successful, a model file will be saved:
 vehicle_price_model.joblib
 
-###🌐 Running the Streamlit App
+### 🌐 Running the Streamlit App
 streamlit run app.py
 Upload a CSV containing vehicle data (no price column required).
 The app will display predictions and allow output download.
@@ -76,7 +76,7 @@ Numeric	year, mileage, cylinders, doors
 
 Missing values are handled automatically. ✔
 
-###🧪 Example Prediction Flow
+### 🧪 Example Prediction Flow
 
 Upload CSV via Streamlit
 
@@ -86,14 +86,14 @@ Model predicts price for each row
 
 Download results as CSV
 
-###📦 requirements.txt
+### 📦 requirements.txt
 pandas
 numpy
 scikit-learn
 streamlit
 joblib
 
-###🏁 Conclusion
+### 🏁 Conclusion
 
 This project demonstrates a robust machine learning pipeline for used vehicle price prediction, including:
 
