@@ -101,8 +101,11 @@ joblib
 This project demonstrates a robust machine learning pipeline for used vehicle price prediction, including:
 
 🚀 Automated preprocessing
+
 🔧 Data Imputation
+
 🌐 Web-based prediction interface
+
 📈 Realistic regression model
 
 You are free to modify, extend, or enhance the model! Contributions welcome.
