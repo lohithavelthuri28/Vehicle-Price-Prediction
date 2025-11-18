@@ -23,9 +23,13 @@ The model pipeline includes:
 
 | Step | Technique |
 |------|----------|
+
 | Missing value handling | `SimpleImputer` (median for numeric, most_frequent for categorical) |
+
 | Categorical Encoding | `OneHotEncoder` |
+
 | Regression Model | `RandomForestRegressor` |
+
 | Full Pipeline Saving | `joblib.dump()` |
 
 ---
